@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(237, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px;
+    align-items: center;
+   
+    position: fixed;
+    z-index: 10;
+    
+}
+i{
+   font-size: 30px;
+}
+i:hover{
+    cursor: pointer; 
+    transform: scale(1.3);   
+    
+}
+.icon{
+    margin-right: 20px;
+    
+    
+}
+
+.icon:hover{
+    cursor: pointer;
+    background-color: rgb(164, 197, 228);
+   
+}
+.page-body{
+    height:100vh ;
+    width: 100%;
+    background-color: rgb(53, 169, 198);
+    background-image: url(img/pexelsphoto1927507.jpeg);
+    background-size: cover;
+    background-position: center;     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 160px;   
+    font-family: Ubuntu, sans-serif !important;
+    
+    
+    
+}
+
+.page-body .text1 p{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 4.5rem;
+    font-weight:700;  
+    position: relative; 
+    top: 50px;
+   
+}
+.page-body .text2 p{
+    color: white;
+    font-size: 12rem;
+    font-weight: 700;    
+}
+
+.page-main-1{
+
+    width: 100%;
+    height: 50vh;
+    background-color: #7da2a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-main-1 .p1 {
+margin-right: 25px;
+}
+
+.page-main-1 .p1 h2{
+  text-align: center;
+  text-transform: uppercase;  
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+ 
+}
+.page-main-1 .p1 h3{   
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #000000;
+   font-size: 30px;
+  font-weight: bold; 
+  margin-top: 20px; 
+  
+  }
+.page-main-1 .p2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(233, 233, 233);
+    line-height: 25px;
+}
+
+
+.page-main-2{
+    width: 100%;
+    height: 120vh;  
+    
+    align-content: center;
+    
+}
+.div1-page-main-2{
+line-height: 20px;
+
+
+}
+.div1-page-main-2 {
+   
+    text-align: center;
+}
+.div1-page-main-2 h2{
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif !important;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.div2-page-main-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.div2-page-main-2 h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Ubuntu, sans-serif !important;
+
+}
+.div2-page-main-2 p{
+    font-size: 1.2rem;    
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(138, 136, 136);
+    line-height: 25px;
+    margin-top: 10px;
+
+}
+.div2-page-main-2 img{
+    margin-bottom: 20px;
+    margin-left: -15px;    
+}
+.div22-page-main-2{
+    margin-left:-60px ;
+}
+.page-main-3{
+    width: 100%;
+    height: 100vh;
+    background-color: #18181e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page-main-3 div{
+
+    margin: 30px;
+}
+.page-main-3 div img{
+    width: 600px;
+    height: 620px;
+}
+.page-main-3 div h3{
+    color: #fffefe;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Ubuntu, sans-serif !important;
+    margin-bottom: 30px;
+}
+.page-main-3 div p {
+    font-size: 1.2rem;    
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    margin: 40px 0;
+}
+.page-main-3 div button{
+    width: 130px;
+    height: 50px;
+    background-color: #7da2a9;
+    color: white;
+    border-radius: 10px;
+}
+.page-main-3 div button:hover{
+    background-color: #5c6d71;
+    cursor: pointer;
+}
+.page-main-4{
+    width: 100%;
+    height: 190vh;  
+    
+    align-content: center;
+    
+}
+.div1-page-main-4{
+line-height: 20px;
+
+}
+.div1-page-main-4 {
+   
+    text-align: center;
+}
+.div1-page-main-4 h2{
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif !important;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.div2-page-main-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.div2-page-main-4 div img{
+    width: 390px;   
+    height: 360px;
+    margin-right: 20px;
+}
+.div2-page-main-4 div img:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.page-main-5{
+    width: 100%;
+    height: 40vh;
+    background-color:#7da2a9 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.page-main-5 h3{
+    margin-bottom: 10px;
+    font-family: Ubuntu, sans-serif !important;
+    font-size: 40px;
+}
+.page-main-5 p{
+    font-size: 1.2rem;    
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.page-main-6{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.page-main-6 div {
+    width: 33.33333333333333%;
+    height: 100%;
+}
+.page-main-6 img {
+    width:100%;
+    height: 100%;
+}
+
+.page-main-7{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+}
+
+.page-main-7 .div1 {
+    width: 50%;
+    height: 100%;
+    background-color:#7da2a9 ;
+    color: white;
+    padding: 50px;
+   
+}
+.page-main-7 .div1  h3{
+    font-family: Ubuntu, sans-serif !important;
+    font-size: 35px;
+}
+.page-main-7 .div1 p{
+    
+        font-size: 1.15rem;    
+        font-family: 'Open Sans', sans-serif;
+        margin: 30px 0;
+}
+.page-main-7 .div1 i{
+    margin: 7px;
+}
+.page-main-7 .div1 i:hover{
+    color: #dcdada;
+}
+
+
+
+.page-main-7 .div2 {
+    width: 50%;
+    height: 100%;
+    background-color:#18181e;
+   align-content: center;
+  text-align: center;
+   
+    
+}
+
+.page-main-7 .div2 form input {
+    margin: 6px;
+   
+    width: 470px;
+    height: 40px;
+    border: 1px solid #ffffff ;
+    color:#ffffff ;
+    background-color:#18181e ;
+    padding: 0 15px;
+    font-size: 18px;
+
+}
+.page-main-7 .div2 form textarea {
+    margin: 6px;   
+    width: 470px;
+    height: 140px;
+    border: 1px solid #f0f0f0 ;
+    color:#ffffff ;
+    background-color:#18181e ;
+    padding: 5px 15px;
+    font-size: 20px;
+
+}
+.page-main-7 .div2 form  .sub{
+    margin-top: 10px;   
+    width: 130px;
+    height: 35px;
+background-color: #7da2a9;
+color: white;
+position: relative;
+right:  170px;
+
+
+}
+.page-main-7 .div2 form  .sub:hover{
+    border-color:#607b80 ;
+    cursor: pointer;
+    color: #000000;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #333333;
+    
+    text-align: center;
+    align-content: center;
+}
+footer p{
+    color: #ffffff;
+}
+footer p a{
+    color: #78a3ab;
+}
+footer p a:hover{
+    color: #95aaae;
+    text-decoration: none;
+}
